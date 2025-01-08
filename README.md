@@ -17,4 +17,4 @@
 
 > 更多优质资源可 + v
 > 
-> <a href="https://smms.app/image/XtGqHAxlpKQhrEY" target="_blank"><img src="https://s2.loli.net/2025/01/08/XtGqHAxlpKQhrEY.jpg" alt="_20250108205401.jpg" style="zoom:33%;"/></a>
+> <img src="https://s2.loli.net/2025/01/08/XtGqHAxlpKQhrEY.jpg" alt="denerate" style="width: 300px; height: auto;">
