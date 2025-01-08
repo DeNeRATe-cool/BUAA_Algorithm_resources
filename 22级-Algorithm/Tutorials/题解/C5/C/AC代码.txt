@@ -1,0 +1,33 @@
+#include <bits/stdc++.h>
+using namespace std;
+struct Point {
+    double x, y;
+};
+const double eps = 1e-6;
+double GetDistance(Point A, Point B) {
+    return sqrt((A.x-B.x) * (A.x-B.x) + (A.y-B.y) * (A.y-B.y));
+}
+double GetNearest(Point A, Point B, Point C) {
+    double a = GetDistance(A, B);
+    double b = GetDistance(A, C);
+    double c = GetDistance(B, C);
+    if (a*a > b*b + c*c)
+        return b;
+    if (b*b > a*a + c*c)
+        return a;
+    double l = (a+b+c) / 2;
+    double s = sqrt(l*(l-a)*(l-b)*(l-c));
+    return 2*s/c;
+}
+int main()
+{
+	int t;
+	scanf("%d",&t);
+	for(int i=1;i<=t;i++){
+		struct Point a,p,q;
+		scanf("%lf%lf%lf%lf%lf%lf",&a.x,&a.y,&p.x,&p.y,&q.x,&q.y);
+		double ans=GetNearest(a,p,q);
+		printf("%.3lf\n",ans);
+	}
+	return 0;
+}
