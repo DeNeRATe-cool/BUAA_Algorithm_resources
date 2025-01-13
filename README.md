@@ -12,6 +12,7 @@
 ├─dp-solution.pdf --- dp专题题解
 ├─背包九讲.pdf --- rt
 ├─算法串讲.pdf --- 期末串讲PPT
+├─算法选择题复习.pdf --- denerate整理的算法选择题期末板子
 └─算法模板.md --- denerate的算法期末模板~~~
 ```
 
